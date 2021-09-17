@@ -12,4 +12,9 @@ def adadaval(n):
 
 
 n = int(input('enter a number:'))
-print(adadaval(n))
+k = 1
+
+while k <= n:
+    if adadaval(k):
+        print(k)
+    k += 2
